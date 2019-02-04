@@ -7,7 +7,7 @@ global.config = {
     coinDisplayUnitPlaces: 2,
 	txMinConfirms: 20,         
 	txCoinbaseMinConfirms: 20, 
-	addressPrefix: 18181,
+	addressPrefix: 0x14d893,
 	integratedAddressPrefix: 0,
 	addressPrefixTestnet: 33,
 	integratedAddressPrefixTestnet: 34,
@@ -18,9 +18,9 @@ global.config = {
 	defaultMixin: 0, // default value mixins
 	idleTimeout: 30,
 	idleWarningDuration: 20,
-	coinSymbol: 'PLE',
-	coinName: 'Plenteum',
-	coinUriPrefix: 'plenteum:',
+	coinSymbol: 'RHOX',
+	coinName: 'RhodiumCoin',
+	coinUriPrefix: 'rhodiumcoin:',
 	avgBlockTime: 120,
 	maxBlockNumber: 500000000,
 };
