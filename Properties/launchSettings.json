@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "plenteum-webwallet": {
+    "rhodiumcoin-webwallet": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "",
