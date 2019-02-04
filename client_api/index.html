@@ -30,12 +30,12 @@
     <script>
         var clickButton = document.getElementById('payButton');
 
-        function PlenteumLoaded() {
+        function RhodiumCoinLoaded() {
             clickButton.disabled = false;
             clickButton.addEventListener("click", function () {
                 PlenteumApi.makeTransfer({
                     amount: 10,
-                    address: 'wallet.plenteum.com',
+                    address: 'wallet.rhodiumcoin.com',
                     description: 'Description',
                     destName: 'Webwallet',
                     redirect: encodeURIComponent(window.location.href)
@@ -50,7 +50,7 @@
                 console.log(hasWAllet);
             });
         }
-        PlenteumApi.init().then(PlenteumLoaded);
+        RhodiumCoinApi.init().then(RhodiumCoinLoaded);
 
     </script>
 
